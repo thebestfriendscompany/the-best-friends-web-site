@@ -67,6 +67,24 @@
       display: inline-block;
       margin-top: 1rem;
     }
+    input, textarea {
+      width: 100%;
+      padding: 0.5rem;
+      margin-top: 0.3rem;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 1rem;
+    }
+    button[type="submit"] {
+      background-color: #1e90ff;
+      color: white;
+      padding: 0.7rem 1.5rem;
+      border: none;
+      border-radius: 5px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
   </style>
 </head>
 <body>
@@ -92,7 +110,7 @@
         <h3>🔒 Sécurité</h3>
         <img src="https://cdn.pixabay.com/photo/2016/11/22/23/11/security-1851199_960_720.jpg" alt="Formation en sécurité" style="width:100%; max-width:400px; border-radius:8px;">
         <p>Formation en sécurité privée, surveillance, protection des personnes et des biens, gestion des situations d'urgence, et intervention rapide. Idéale pour devenir un agent qualifié.</p>
-        <a href="https://wa.me/243999047524" style="display:inline-block; padding:10px 20px; background-color:#27ae60; color:white; text-decoration:none; border-radius:5px; margin-top:10px;">S'inscrire maintenant</a>
+        <a href="https://wa.me/243999047524" class="btn">S'inscrire maintenant</a>
       </div>
       <div class="card">
         <h3>🌾 Agro-business</h3>
@@ -122,20 +140,18 @@
   </section>
 
   <section class="section">
-    <h2>📧 Contactez-nous par Email</h2>
-    <form action="https://formspree.io/f/mnqybzda" method="post">
-      <label for="email">Votre Email</label><br>
-      <input name="Email" id="email" type="email" required><br><br>
-      
-      <label for="message">Message</label><br>
-      <textarea name="message" id="message" rows="5" required></textarea><br><br>
-      
-      <button type="submit">📩 Envoyer</button>
-    </form>
+  <h2>📧 Contactez-nous par Email</h2>
+  <p>Veuillez nous écrire à : <strong>contact@thebestfriends@gmail.com</strong></p>
+  </section>
+
+  <section class="section" id="formulaire-inscription">
+    <h2>📋 Formulaire d'inscription</h2>
+    <p>Veuillez remplir le formulaire ci-dessous pour vous inscrire à l'une de nos formations.</p>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSff-hISdzcMtaaMihGbokoPf0U1TnoIZ34erlTrck1YA_9klQ/viewform?embedded=true" width="100%" height="1300" frameborder="0" marginheight="0" marginwidth="0">Chargement…</iframe>
   </section>
 
   <footer>
-    &copy; 2025 THE BEST FRIENDS COMPANY | All rights reserved.
+    &copy; 2025 THE BEST FRIENDS COMPANY | Tous droits réservés.
   </footer>
 </body>
 </html>
